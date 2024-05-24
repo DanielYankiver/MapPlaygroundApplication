@@ -14,6 +14,9 @@
 		EECE63702BFFBF1C00B7E3AC /* MapPlaygroundAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE636F2BFFBF1C00B7E3AC /* MapPlaygroundAppTests.swift */; };
 		EECE637A2BFFBF1C00B7E3AC /* MapPlaygroundAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE63792BFFBF1C00B7E3AC /* MapPlaygroundAppUITests.swift */; };
 		EECE637C2BFFBF1C00B7E3AC /* MapPlaygroundAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE637B2BFFBF1C00B7E3AC /* MapPlaygroundAppUITestsLaunchTests.swift */; };
+		EECE63892BFFC60B00B7E3AC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE63882BFFC60B00B7E3AC /* Location.swift */; };
+		EECE638B2BFFE15C00B7E3AC /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE638A2BFFE15C00B7E3AC /* EditView.swift */; };
+		EECE638F2C010F3F00B7E3AC /* FindPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE638E2C010F3F00B7E3AC /* FindPointsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		EECE63752BFFBF1C00B7E3AC /* MapPlaygroundAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapPlaygroundAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECE63792BFFBF1C00B7E3AC /* MapPlaygroundAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlaygroundAppUITests.swift; sourceTree = "<group>"; };
 		EECE637B2BFFBF1C00B7E3AC /* MapPlaygroundAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlaygroundAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EECE63882BFFC60B00B7E3AC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EECE638A2BFFE15C00B7E3AC /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		EECE638E2C010F3F00B7E3AC /* FindPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPointsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				EECE635D2BFFBF1B00B7E3AC /* MapPlaygroundAppApp.swift */,
 				EECE635F2BFFBF1B00B7E3AC /* ContentView.swift */,
+				EECE638E2C010F3F00B7E3AC /* FindPointsView.swift */,
+				EECE638A2BFFE15C00B7E3AC /* EditView.swift */,
+				EECE63882BFFC60B00B7E3AC /* Location.swift */,
 				EECE63612BFFBF1C00B7E3AC /* Assets.xcassets */,
 				EECE63632BFFBF1C00B7E3AC /* MapPlaygroundApp.entitlements */,
 				EECE63642BFFBF1C00B7E3AC /* Preview Content */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECE63602BFFBF1B00B7E3AC /* ContentView.swift in Sources */,
+				EECE63892BFFC60B00B7E3AC /* Location.swift in Sources */,
+				EECE638B2BFFE15C00B7E3AC /* EditView.swift in Sources */,
+				EECE638F2C010F3F00B7E3AC /* FindPointsView.swift in Sources */,
 				EECE635E2BFFBF1B00B7E3AC /* MapPlaygroundAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
