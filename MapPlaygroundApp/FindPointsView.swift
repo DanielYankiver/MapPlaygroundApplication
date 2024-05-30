@@ -35,6 +35,7 @@ struct FindPointsView: View {
 
   var body: some View {
     VStack {
+      // Map Type Picker
       Picker("", selection: $mapType) {
         Text("Default").tag(0)
         Text("Satellite").tag(1)
