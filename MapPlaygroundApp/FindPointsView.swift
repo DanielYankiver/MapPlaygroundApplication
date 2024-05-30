@@ -65,7 +65,7 @@ struct FindPointsView: View {
       }
       .mapControls {
         MapScaleView()
-        // TODO: - get this to work - just shows ui 
+        // TODO: - get this to work - just shows ui. Need to place in overlay
         // MapUserLocationButton()
       }
       .mapControlVisibility(Visibility.visible)
