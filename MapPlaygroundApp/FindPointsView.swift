@@ -41,7 +41,8 @@ struct FindPointsView: View {
         Text("Satellite").tag(1)
       }
       .pickerStyle(SegmentedPickerStyle())
-
+      
+      // Show total distance
       Text("Total Distance: \(totalDistance().metersToFeet(), specifier: "%.2f") feet")
         .padding()
     }
