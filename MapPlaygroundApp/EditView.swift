@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// It's own view 
 struct EditView: View {
   @Environment(\.dismiss) var dismiss
   var location: Location

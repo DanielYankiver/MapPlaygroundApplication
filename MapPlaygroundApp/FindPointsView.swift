@@ -8,11 +8,17 @@
 import SwiftUI
 import MapKit
 
+import Observation
+
+@Observable class Daniel {
+  var myName: String = ""
+}
+
 struct FindPointsView: View {
   let startPosition = MapCameraPosition.region(
     MKCoordinateRegion(
-      center: CLLocationCoordinate2D(latitude: 34.106270, longitude: -84.533970),
-      span: MKCoordinateSpan(latitudeDelta: 0.0004, longitudeDelta: 0.0004)
+      center: CLLocationCoordinate2D(latitude: 34.051849, longitude: -84.515961),
+      span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001)
     )
   )
   @State private var locations = [Location]()
@@ -58,6 +64,12 @@ struct FindPointsView: View {
           }
         }
       }
+      .mapControls {
+        MapScaleView()
+        // TODO: - get this to work - just shows ui 
+        // MapUserLocationButton()
+      }
+      .mapControlVisibility(Visibility.visible)
       .mapStyle(selectedMapStyle)
       .onTapGesture { position in
         if let coordinate = proxy.convert(position, from: .local) {
